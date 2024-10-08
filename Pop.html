@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Pops
+    </title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        var cars = ['coding', 'math', 'learn'];
+        document.getElementById('demo').innerHTML = cars.join ("*");
+        document.getElementById('demo1').innerHTML=cars;
+        cars.pop();
+        document.getElementById('demo2').innerHTML=cars;
+    </script>
+</body>
+
+</html>
